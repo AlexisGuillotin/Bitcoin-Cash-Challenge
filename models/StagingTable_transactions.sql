@@ -1,4 +1,3 @@
--- CREATE THE STAGING TABLE
 {{ config(materialized="table", table_name="StagingTable_transactions") }}
 select
     `hash`,
@@ -36,6 +35,4 @@ select
 from `bigquery-public-data.crypto_bitcoin_cash.transactions` as bitcoin_cash
 left join unnest(bitcoin_cash.inputs) as unnested_inputs
 left join unnest(bitcoin_cash.outputs) as unnested_outputs
-where
-    date(bitcoin_cash.block_timestamp)
-    > date_sub(date(current_timestamp()), interval 3 month)
+where bitcoin_cash.block_timestamp_month > date_sub(date(current_timestamp()), interval 3 month)
