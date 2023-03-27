@@ -1,7 +1,9 @@
 # Analyzing Bitcoin Cash Blockchain with Google Cloud
 This repository contains code and instructions for analyzing the Bitcoin Cash blockchain using Google Cloud tools. The project materializes a staging table from the transactions raw table, selects the last three months of data from it, and materializes a data mart table that gives the current balance for all addresses and excludes addresses that had at least one transaction on Coinbase. Finally, a graph is plotted that shows the amount of daily transactions over time.
 I was made during a challenge provided by [Astrafy](https://www.astrafy.io/).
-![Astrafy_logo.png](Astrafy_logo.png)
+<p align="center" width="100%">
+  <img width="33%" src="Astrafy_logo.png" />
+</p>
 
 
 ## Table of content
