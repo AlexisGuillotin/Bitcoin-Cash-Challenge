@@ -14,6 +14,8 @@ I was made during a challenge provided by [Astrafy](https://www.astrafy.io/).
   - [Installing Dependencies](#installing-dependencies)
   - [Running the Project](#running-the-project)
   - [Authors](#authors)
+  - [Sitography](#sitography)
+  - [Acknowledgement](#acknowledgement)
   - [License](#license)
 
 
@@ -56,6 +58,16 @@ To run this project, follow the steps in the Getting Started section above.
 
 ## Authors
 Alexis Guillotin
+
+## Sitography
+- [medium](https://medium.com/@charles.xavier.verleyen)
+- [DBT Cloud setup](https://docs.getdbt.com/docs/quickstarts/dbt-cloud/bigquery)
+- [Google Cloud documentation](https://cloud.google.com/docs?hl=fr)
+- [GitHub with Google Colab](https://bebi103a.github.io/lessons/02/git_with_colab.html)
+- [BigQuery with python](https://cloud.google.com/python/docs/reference/bigquery/latest)
+
+## Acknowledgement
+<a href="https://github.com/clementmariebrisson">@clementmariebrisson</a>
 
 ## License
 This project is licensed under the GPL-3.0 license - see the [LICENSE](LICENSE) file for details.
