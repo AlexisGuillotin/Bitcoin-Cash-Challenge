@@ -20,7 +20,10 @@ I was made during a challenge provided by [Astrafy](https://www.astrafy.io/).
 ## Getting Started
 To run this project, you will need a Google Cloud account and access to the Bitcoin Cash dataset on BigQuery.
 
-1. Clone this repository to your local machine using git clone https://github.com/AlexisGuillotin/Bitcoin-Cash-Challenge.
+1. Clone this repository to your local machine using :
+```bash
+git clone https://github.com/AlexisGuillotin/Bitcoin-Cash-Challenge
+```
 2. Create a new Google Cloud project
 3. Use dbt cloud to materialize the two tables mentioned above.
 4. Open the bitcoin-cash-graph.ipynb notebook using Google Colab.
@@ -45,7 +48,7 @@ The following Python libraries are required to run this project:
 You can install these libraries using pip:
 
 
-```
+```bash
 pip install pandas matplotlib seaborn
 ```
 ## Running the Project
